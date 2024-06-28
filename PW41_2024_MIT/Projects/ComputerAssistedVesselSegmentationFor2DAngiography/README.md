@@ -61,11 +61,17 @@ I have written a C++ library for computer-assisted vessel segmentation in DSA im
 <!-- Update this section as you make progress, describing of what you have ACTUALLY DONE.
      If there are specific steps that you could not complete then you can describe them here, too. -->
 
+Progress
+1. Set up my laptop with appropriate libraries and built Slicer!
+2. Created a loadable module with the Extension Wizard, compiled and ran it in my slicer build
+3. Discussed my app's OpenGL requirements with Steve Pieper and Simon Drouin. Learned I would probably need to create a custom QOpenGL view for my application. Steve suggested looking at the custom view in the DICOM module.
+4. Mock'ed up a user interface for my module in a scripted module.
+5. Managed to mimic the DICOM module to create a custom view that behaves well when switching between modules
 
-1. Describe specific steps you **have actually done**.
-
-
-
+Next steps
+1. Put a QOpenGLWidget into the custom view
+2. Transfer the UI and custom view to the loadable module
+3. Move forward on integrating and testing my app's functionality into the loadable module.
 
 # Illustrations
 
